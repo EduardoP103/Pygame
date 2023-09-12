@@ -259,8 +259,8 @@ def main():
                     red_health, yellow_health)
 
         if game_over:
-            draw_winner("Amarillo Gana!" if yellow_health <=
-                        0 else "Rojo Gana!")
+            draw_winner("Rojo Gana!" if yellow_health <=
+                        0 else "Amarillo Gana!")
 
     pygame.quit()
 
